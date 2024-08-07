@@ -1,0 +1,141 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Roboto;
+    background: linear-gradient(45deg, #737373, #4a4a4a);
+}
+
+/* Cabecalho */
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 3px solid #ccc;
+}
+
+#header img{
+    width: 120px;
+    margin: 10px;
+    box-shadow: 0 0 10px #fff;
+    border-radius: 40px 10px;
+}
+
+#header h1{
+    font-size: 3rem;
+    color: #fff;
+}
+
+/* Lista do Cabecalho */
+.list-cabecalho{
+    display: flex;
+}
+.list-cabecalho li{
+    margin: 15px;
+    font-size: 1.2rem;
+    list-style: none;
+}
+.list-cabecalho a{
+    text-decoration: none;
+    color: #fff;
+}
+.list-cabecalho a:hover{
+    color: rgb(122, 145, 177);
+    font-weight: bold;
+}
+
+
+/* Container principal */
+#container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Secao Sobre */
+#sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+#sobre img{
+    width: 400px;
+    border-radius: 120px 10px;
+}
+.sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 20px;
+    text-align: center;
+}
+.sobre span{
+    color: rgb(245, 242, 238);
+}
+.sobre p {
+    margin: 10px;
+}
+
+#botoes{
+    width: 100%;
+}
+#botoes{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+#botoes a{
+    border: 2px solid;
+    width: 150px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    transition: 0.2s;
+}
+#botoes a:hover{
+    background-color: rgb(113, 130, 180);
+}
+#botoes a:active{
+    color: #000000;
+    background-color: aliceblue;
+}
+
+
+/* Secao de Habilidades */
+#habilidades{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#habilidades h2{
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #fff;
+}
+.habilidades-lista{
+    display: flex;
+}
+.habilidades-lista li{
+    width: 200px;
+    height: 150px;
+    border: 2px solid;
+    margin: 10px;
+    border-radius: 30px 10px;
+    list-style: none;
+    box-shadow: 10px 10px 10px;
+}
